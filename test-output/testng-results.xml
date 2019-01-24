@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Backbase Computer Assignment Test" duration-ms="32768" started-at="2019-01-24T01:07:29Z" finished-at="2019-01-24T01:08:02Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="32768" started-at="2019-01-24T01:07:29Z" finished-at="2019-01-24T01:08:02Z">
+      <class name="com.automation.tests.DeleteComputersTest">
+        <test-method status="PASS" signature="Test01_deleteComputer()[pri:1, instance:com.automation.tests.DeleteComputersTest@4abdb505]" name="Test01_deleteComputer" duration-ms="6475" started-at="2019-01-24T01:07:54Z" finished-at="2019-01-24T01:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_deleteComputer -->
+      </class> <!-- com.automation.tests.DeleteComputersTest -->
+      <class name="com.automation.tests.NegativeTests">
+        <test-method status="PASS" signature="Test01_computerNameError()[pri:1, instance:com.automation.tests.NegativeTests@7ce6a65d]" name="Test01_computerNameError" duration-ms="1658" started-at="2019-01-24T01:08:00Z" finished-at="2019-01-24T01:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_computerNameError -->
+      </class> <!-- com.automation.tests.NegativeTests -->
+      <class name="com.automation.tests.UpdateComputersTest">
+        <test-method status="PASS" signature="Test01_updateComputerWithAllFields()[pri:1, instance:com.automation.tests.UpdateComputersTest@26a7b76d]" name="Test01_updateComputerWithAllFields" duration-ms="14800" started-at="2019-01-24T01:07:39Z" finished-at="2019-01-24T01:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_updateComputerWithAllFields -->
+      </class> <!-- com.automation.tests.UpdateComputersTest -->
+      <class name="com.automation.tests.CreateComputersTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.tests.CreateComputersTest@7a9273a8]" name="setup" is-config="true" duration-ms="2698" started-at="2019-01-24T01:07:29Z" finished-at="2019-01-24T01:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.tests.DeleteComputersTest@4abdb505]" name="setup" is-config="true" duration-ms="1743" started-at="2019-01-24T01:07:32Z" finished-at="2019-01-24T01:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.tests.NegativeTests@7ce6a65d]" name="setup" is-config="true" duration-ms="1732" started-at="2019-01-24T01:07:34Z" finished-at="2019-01-24T01:07:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.tests.UpdateComputersTest@26a7b76d]" name="setup" is-config="true" duration-ms="1621" started-at="2019-01-24T01:07:36Z" finished-at="2019-01-24T01:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test01_createComputerWithAllFields()[pri:1, instance:com.automation.tests.CreateComputersTest@7a9273a8]" name="Test01_createComputerWithAllFields" duration-ms="1719" started-at="2019-01-24T01:07:37Z" finished-at="2019-01-24T01:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_createComputerWithAllFields -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.automation.tests.CreateComputersTest@7a9273a8]" name="teardown" is-config="true" duration-ms="80" started-at="2019-01-24T01:08:02Z" finished-at="2019-01-24T01:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.automation.tests.DeleteComputersTest@4abdb505]" name="teardown" is-config="true" duration-ms="75" started-at="2019-01-24T01:08:02Z" finished-at="2019-01-24T01:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.automation.tests.NegativeTests@7ce6a65d]" name="teardown" is-config="true" duration-ms="74" started-at="2019-01-24T01:08:02Z" finished-at="2019-01-24T01:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.automation.tests.UpdateComputersTest@26a7b76d]" name="teardown" is-config="true" duration-ms="75" started-at="2019-01-24T01:08:02Z" finished-at="2019-01-24T01:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.tests.CreateComputersTest -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- Backbase Computer Assignment Test -->
+</testng-results>

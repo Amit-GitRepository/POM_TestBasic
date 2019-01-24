@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Backbase Computer Assignment Test" verbose="1" >
+  <test name="Regression suite 1" >
+    <classes>
+      <class name="com.automation.tests.CreateComputersTest"/>
+      <class name="com.automation.tests.UpdateComputersTest"/>
+      <class name="com.automation.tests.DeleteComputersTest"/>
+      <class name="com.automation.tests.NegativeTests"/>
+    </classes>
+ </test>
+</suite>
