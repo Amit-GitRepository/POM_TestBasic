@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Backbase Computer Assignment Test" verbose="1" >
-  <test name="Regression suite 1" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="2">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="com.automation.tests.CreateComputersTest"/>
-      <class name="com.automation.tests.UpdateComputersTest"/>
-      <class name="com.automation.tests.DeleteComputersTest"/>
-      <class name="com.automation.tests.NegativeTests"/>
+      <class name="com.r1rcm.tests.SearchTest2"/>
+      <class name="com.r1rcm.tests.SearchTest"/>
     </classes>
- </test>
-</suite>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

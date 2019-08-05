@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.tests.UpdateComputersTest">
+      <class name="com.r1rcm.tests.SearchTest">
         <methods>
-          <include name="teardown"/>
-          <include name="Test04_updateComputerAndVerifySucccessMessage"/>
-          <include name="setup"/>
+          <include name="skipTest"/>
+          <include name="makeDBConnection"/>
+          <include name="failTest"/>
+          <include name="setUp"/>
+          <include name="closeDBConnection"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.automation.tests.UpdateComputersTest -->
+      </class> <!-- com.r1rcm.tests.SearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
